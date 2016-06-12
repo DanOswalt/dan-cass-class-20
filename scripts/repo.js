@@ -7,7 +7,7 @@
   // to the proxy end point provided by server.js.
   repos.requestRepos = function(callback) {
     $.ajax({
-      url: '/github',
+      url: '/github/users/DanOswalt/repos',
       type: 'GET',
       success: function(data, message, xhr) {
         repos.all = data;
