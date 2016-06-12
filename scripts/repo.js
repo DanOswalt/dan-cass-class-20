@@ -3,7 +3,7 @@
 
   repos.all = [];
 
-  // TODO: Refactor and simplify this ajax call into a get request
+  // D+C: Refactor and simplify this ajax call into a get request
   // to the proxy end point provided by server.js.
   repos.requestRepos = function(callback) {
     $.ajax({
